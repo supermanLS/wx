@@ -6,7 +6,7 @@ $(function(){
         spaceBetween: 30,
         centeredSlides: true,
         autoplay: 2500,
-        autoplayDisableOnInteraction: false
+        autoplayDisableOnInteraction:false
     });
      //文字上下滚动
 	var boxH=$('.marquee').outerHeight();

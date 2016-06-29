@@ -80,6 +80,7 @@ header{
 	left: 0;
 	background:#fff;
 	font-size:0.26rem;
+	color:#333;
 }
 .userbox{
 	width: 100%;
@@ -108,6 +109,7 @@ header{
 	display: block;
 	font-size:.26rem;
 	font-weight:700;
+	color:#333;
 }
 .heng{
 	width: 100%;
@@ -131,6 +133,47 @@ header{
 	height:.2rem;
 	background:#f60;
 }
+.dsbox{
+	width: 100%;
+	overflow: hidden;
+	
+}
+.dsbox li{
+	width: 50%;
+	height:1.18rem;
+	border-right:1px solid #f0f0f0;
+	border-bottom:1px solid #f0f0f0;
+	float:left;
+
+}
+.dsbox li:nth-child(2n+1){
+	padding-left:.25rem;
+}
+.dsbox li:nth-child(2n+2){
+	border-right:0;
+	padding-right: .25rem;
+	padding-left:.07rem;
+}
+.wz{
+	overflow: hidden;
+	margin-top:.2rem;
+	float:left;
+}
+.wz p:first-child{
+	font-size:0.3rem;
+	color:#f60;
+
+}
+.wz p:last-child{
+
+	font-size:0.24rem;
+	color:#333;
+}
+.dsimg{
+	width: calc(100% - 2.3rem);
+	float:right;
+	margin-top:.2rem;
+}
 /*  footer  */
 .footer{
 	width: 100%;
@@ -152,10 +195,8 @@ header{
 	height:1.1rem;
 	width:1.1rem;
 	border-radius:50%;
-	background:red;
 	margin-top:-0.3rem;
 	border:3px solid #fff;
-	
 }
 .footer span{
 	display: block;
