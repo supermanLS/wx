@@ -55,6 +55,9 @@ header{
 	height:100%;
 	float:left;
 }
+.zxzt div img{
+	float:left;
+}
 .zxzt .marquee{
 	margin-left:.24rem;
 	width:5.5rem;
@@ -119,6 +122,7 @@ header{
 	padding:0 .25rem;
 	line-height: .5rem;
 	font-size:.2rem;
+	vertical-align: text-top;
 }
 .name:before{
 	content: '';
