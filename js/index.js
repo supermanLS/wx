@@ -12,6 +12,7 @@ $(function(){
 	var boxH=$('.marquee').outerHeight();
 	var allH=$('.marquee li').length*boxH;
 	var innerH=$('.marquee ul').height(allH);
+	console.log(allH)
 	setInterval(move,2000)
 	function move(){
 		$(".marquee ul").animate({marginTop:-boxH},500,function(){
