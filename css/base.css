@@ -5,7 +5,7 @@ body,h1,h2,h3,h4,h5,h6,form,input,ul,li,ol,dl,dt,dd,i,p,em,strong,del{
 }
 *{
 	font-family:Arial,Helvetica,Microsoft YaHei;
-	font-size:0.16rem;
+	font-size:0.26rem;
 	box-sizing: border-box;
 }
 a{
